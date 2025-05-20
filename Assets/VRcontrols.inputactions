@@ -1,0 +1,34 @@
+{
+    "name": "VRcontrols",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "d031ed29-a676-4a97-8144-cdbeaafeee79",
+            "actions": [
+                {
+                    "name": "YButton",
+                    "type": "Button",
+                    "id": "d99c8dc9-596a-4300-870b-9bc4e370a3ff",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bf8b1baf-9d10-4908-8b8b-48ff2893414e",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
